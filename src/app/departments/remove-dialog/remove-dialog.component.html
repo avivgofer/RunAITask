@@ -1,0 +1,36 @@
+<div
+  *ngIf="
+    hasRelatedEmployees &&
+    showIsRelatedQuestion &&
+    (companiesService.$selectedCompany | async).departments.length > 1
+  "
+>
+  <h3>There is employees related</h3>
+  <span
+    >please choose department if you want to move them into if not just press
+    ok</span
+  >
+  <mat-select
+    placeholder="Departments"
+    (selectionChange)="optionSelected($event)"
+  >
+    <mat-option
+      *ngFor="let d of (companiesService.$selectedCompany | async).departments"
+      [value]="d.name"
+      >{{ d.name }}</mat-option
+    >
+  </mat-select>
+
+  <button (click)="showIsRelatedQuestion = false">OK</button>
+</div>
+
+<div
+  *ngIf="
+    !hasRelatedEmployees ||
+    !showIsRelatedQuestion ||
+    (companiesService.$selectedCompany | async).departments.length <= 1
+  "
+>
+  <span>Are you sure?</span>
+  <button (click)="onRemove()">YES!</button>
+</div>

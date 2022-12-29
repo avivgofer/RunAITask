@@ -1,0 +1,17 @@
+:host {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #df1995;
+  cursor: pointer;
+  color: white;
+  padding: 0 28px;
+  height: 30px;
+  border-radius: 8px;
+  margin-top: 30px;
+}

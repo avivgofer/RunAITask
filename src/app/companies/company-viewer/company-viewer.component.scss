@@ -1,0 +1,16 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  color: #df1995;
+  font-size: 4vw;
+}
+
+::ng-deep {
+  .mat-tab-labels {
+    display: flex;
+  }
+  .mat-tab-label {
+    flex: 1;
+  }
+}

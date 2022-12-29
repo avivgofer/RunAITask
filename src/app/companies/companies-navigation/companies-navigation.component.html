@@ -1,0 +1,7 @@
+<div
+  class="company"
+  *ngFor="let company of companiesService.$companies | async"
+  (click)="companiesService.setSelectedCompany(company.name)"
+>
+  {{ company.name }}
+</div>

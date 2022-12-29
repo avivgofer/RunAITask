@@ -1,0 +1,5 @@
+<app-companies-navigation></app-companies-navigation>
+<app-company-viewer
+  *ngIf="companiesService.$selectedCompany | async"
+  [company]="companiesService.$selectedCompany | async"
+></app-company-viewer>

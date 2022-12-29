@@ -1,0 +1,23 @@
+<form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+  <mat-label>First Name:</mat-label>
+  <input matInput formControlName="fname" />
+  <mat-label>Last Name:</mat-label>
+  <input matInput formControlName="lname" />
+  <mat-label>Age:</mat-label>
+  <input matInput formControlName="age" />
+  <mat-label>ID Number:</mat-label>
+  <input matInput formControlName="id" />
+  <mat-select placeholder="Departments" formControlName="department">
+    <mat-option *ngFor="let d of company.departments" [value]="d.name">
+      {{ d.name }}
+    </mat-option>
+  </mat-select>
+
+  <button mat-raised-button type="submit">Add employee</button>
+</form>
+
+<app-table
+  [dataSource]="company.employees"
+  [tableColumnsData]="tableColumnsData"
+  (remove)="onRemove($event)"
+></app-table>

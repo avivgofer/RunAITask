@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Apple",
+    "id": "2323",
+    "employees": [
+      {
+        "fname": "aviv",
+        "lname": "gofer",
+        "age": 24,
+        "id": "203778842",
+        "departmentName": "RND"
+      }
+    ],
+    "departments": [
+      {
+        "name": "RND"
+      },
+      {
+        "name": "Sales"
+      },
+      {
+        "name": "UX"
+      }
+    ]
+  },
+  {
+    "name": "Nvidia",
+    "id": "2322",
+    "employees": [
+      {
+        "fname": "shmoel",
+        "lname": "choen",
+        "age": 23,
+        "id": "203778822",
+        "departmentName": "Sales"
+      }
+    ],
+    "departments": [
+      {
+        "name": "RND"
+      },
+      {
+        "name": "Cleaning Service"
+      }
+    ]
+  },
+  {
+    "name": "RUN:AI",
+    "id": "3323",
+    "employees": [
+      {
+        "fname": "liron",
+        "lname": "gofer",
+        "age": 24,
+        "id": "202778842",
+        "departmentName": "RND"
+      }
+    ],
+    "departments": [
+      {
+        "name": "RND"
+      },
+      {
+        "name": "BI"
+      }
+    ]
+  },
+  {
+    "name": "Meta",
+    "id": "2363",
+    "employees": [
+      {
+        "fname": "dorit",
+        "lname": "gofer",
+        "age": 24,
+        "id": "203778842",
+        "departmentName": "RND"
+      }
+    ],
+    "departments": [
+      {
+        "name": "RND"
+      },
+      {
+        "name": "Food"
+      }
+    ]
+  },
+  {
+    "name": "Amazon",
+    "id": "2383",
+    "employees": [
+      {
+        "fname": "tomer",
+        "lname": "gofer",
+        "age": 24,
+        "id": "20311842",
+        "departmentName": "RND"
+      },
+      {
+        "fname": "gor",
+        "lname": "refal",
+        "age": 24,
+        "id": "20414842",
+        "departmentName": "RND"
+      },
+      {
+        "fname": "duffy",
+        "lname": "gofer",
+        "age": 24,
+        "id": "55311842",
+        "departmentName": "RND"
+      },
+      {
+        "fname": "eyal",
+        "lname": "gofer",
+        "age": 55,
+        "id": "40911842",
+        "departmentName": "RND"
+      },
+      {
+        "fname": "nava",
+        "lname": "gofer",
+        "age": 54,
+        "id": "203141841",
+        "departmentName": "RND"
+      },
+      {
+        "fname": "lior",
+        "lname": "gofer",
+        "age": 24,
+        "id": "440311842",
+        "departmentName": "RND"
+      },
+      {
+        "fname": "yuval",
+        "lname": "gofer",
+        "age": 29,
+        "id": "23311842",
+        "departmentName": "RND"
+      }
+    ],
+    "departments": [
+      {
+        "name": "RND"
+      },
+      {
+        "name": "HR"
+      }
+    ]
+  }
+]
