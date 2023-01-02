@@ -7,8 +7,7 @@ import { Company } from 'src/app/companies/company.interface';
 
 @Component({
   selector: 'app-remove-dialog',
-  templateUrl: './remove-dialog.component.html',
-  styleUrls: ['./remove-dialog.component.scss']
+  templateUrl: './remove-dialog.component.html'
 })
 export class RemoveDialogComponent implements OnInit {
   constructor(
